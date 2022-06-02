@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main() {
-  double first, second, temp;
+  int first, second, temp;
   printf("Enter first number: ");
-  scanf("%lf", &first);
+  scanf("%d", &first);
   printf("Enter second number: ");
-  scanf("%lf", &second);
+  scanf("%d", &second);
   temp = first;
   first = second;
   second = temp;
-  printf("\nAfter swapping, first number = %.2lf\n", first);
-  printf("After swapping, second number = %.2lf", second);
+  printf("\nAfter swapping, first number = %d\n", first);
+  printf("After swapping, second number = %d", second);
   return 0;
 }
